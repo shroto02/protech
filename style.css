@@ -1,0 +1,177 @@
+#nav{
+    background-color: rgba(43, 43, 43, 0.897);
+    height: 75px;
+    font-size: 20px;
+    box-shadow: 0px 1px 3px 0px ;
+}
+.navbar-brand{
+    font-size: 26px;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: rgb(233, 233, 233);
+}
+.navbar-nav{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 320px;
+}
+.dropdown-menu{
+    border: none;
+    border-radius: 0px;
+    /* box-shadow: 0px 1px 3px 0px ; */
+    background-color: white;
+    color: white;
+}
+#itemList{
+    font-size: 22px;
+    margin-top: 80px;
+}
+.nav-link{
+    color: rgb(233, 233, 233);
+}
+.nav-link:hover{
+    color: rgb(226, 201, 168);
+}
+li {
+    /* display: inline-block;
+    margin-right: 10px; /* Optional: Add some space between list items */
+    list-style: none;
+}
+#navbarTogglerDemo02{
+    margin-left: 450px;
+}
+
+@media screen and (max-width: 920px) {
+    #nav{
+        height: 58px;
+        font-size: 18px;
+        box-shadow: none;
+    }
+    .navbar-brand{
+        font-size: 22px;
+        font-weight: bolder;
+        margin-left: 10px;
+        color: rgb(53, 53, 53);
+    }
+    .navbar-nav{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .dropdown-menu{
+        border: none;
+        border-radius: 0px;
+        box-shadow: none ;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }   
+    .navbar-collapse {
+        /* background-color: rgb(209, 209, 209, 0.8); Customize the background color of the collapsed navbar */
+        background-color: rgb(255, 255, 255, 0.9);
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 7px;
+        position: relative;
+        left: -10px;
+    }
+}
+
+/* Hero */
+
+#hero{
+    margin-top: 75px;
+    background-color: burlywood;
+    justify-content: center;
+    text-align: center;
+    height: 575px;
+    background-image: url(./images/hero3.jpg);
+    opacity: 0.7;
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center; /* Center the background image */
+}
+.btnh{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #0d070ef3; /* Change the background color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    border: none; /* Remove the border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+.btnh:hover {
+    background-color: #1e87f0; /* Change the background color on hover */
+}
+.herocnt{
+    margin-top: 110px;
+    color:rgb(1, 5, 39);
+    background-color: rgba(207, 142, 202, 0.329);
+    padding: 30px;
+}
+.herocnt h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.herocnt p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* introcss */
+#introcnt{
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+#introcnt h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(3, 8, 58, 0.589);
+    /* font-family: "Arvo", cursive; */
+    /*rgb(1, 5, 39);text-shadow: 1px 0 #1f1d1e; */
+}
+#introcnt p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* carousel */
+  .carousel-item{
+    height: 450px;
+  }
+.cartext p{
+    font-size: 18px;
+    font-weight: 700;
+}  
+.w{
+/* color: #1e87f0; */
+margin-top: -15px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+.flex-container > div {
+    /* border: 1px solid;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    min-width: 300px;
+    border: none; 
+    box-shadow: 3px 3px ;
+     justify-content: center;
+    background:  rgba(43, 43, 43, 0.897);
+    color: white;  */
+    box-shadow: 0px 1px 2px 0px ; 
+}

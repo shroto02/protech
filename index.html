@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProTech Educational Hub Inc</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ProTech</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul style="margin-top: 14px;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero component -->
+    <div id="hero" class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="herocnt">
+                    <h1>Empowering Minds, Illuminating Futures.</h1>
+                    <br>
+                    <p>Embrace the journey of learning technology to unlock a world of possibilities and stay ahead in an ever-evolving digital landscape. Build skills, adapt to advancements, and leverage technology to shape a dynamic and impactful future.</p>
+                    <button class="btnh">Join Us</button>         
+                </div>       
+            </div>
+            <div class="col-2"></div>
+        </div>  
+    </div>
+
+    <!-- intro component -->
+    <div style="padding-top: 90px;" class="container">
+        <div class="row" id="introcnt">
+            <div class="col-4" style="border-right: 2px solid;">
+                <h1>ProTech Educational Hub</h1>
+                <button class="btnh">Read More </button>        
+            </div>
+            <div class="col-8">
+                <p>In sed enim eros. Donec tempor euismod lacus, non dictum urna. Praesent ultricies arcu nec risus lobortis, id auctor leo commodo. Integer tempus augue nulla, id suscipit dolor laoreet in. Mauris ut tortor vitae diam porta maximus nec facilisis risus. Duis erat elit, maximus at justo non.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- corousel -->
+    <div style="padding-top: 90px;" class="container">
+        <div class="row">
+            <div class="cartext">
+                 <p> How We will Help</p>
+                <p class="w" style="font-size: 28px;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/hero1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/hero2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/hero3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+
+    <!-- CARDS -->
+    <div style="padding-top: 120px;" class="container">
+        <div class="row">
+            <div class="cartext">
+                 <p> Our Programs</p>
+                <p class="w" style="font-size: 28px;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.</p>
+            </div>
+            <div class="row">
+                <div class="flex-container">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/pic2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/pic3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/pic4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/pic5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/pic6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                    <!-- <div class="b">
+                        <p class="type">Basic</p>
+                        <p class="price">$11.99 / month</p>
+                        <p class="et">10GB Storage</p>
+                        <p class="et"> 1 User</p>
+                        <p class="et">No Support</p>
+                        <button class="buth"><p>Sign Up</p></button>
+                    </div>
+            
+                    <div class="c">
+                        <p class="type">Standard</p>
+                        <p class="price">$19.99 / month</p>
+                        <p class="et">50GB Storage</p>
+                        <p class="et">5 User</p>
+                        <p class="et">Email Support</p>
+                        <button class="buth"><p>Sign Up</p></button>
+                    </div>
+                        
+                    <div class="d">
+                        <p class="type">Premium</p>
+                        <p class="price">$49.99 / month</p>
+                        <p class="et">100GB Storage</p>
+                        <p class="et">10 User</p>
+                        <p class="et">Email & 24/7 Phone Support</p>
+                        <button class="but"><p>Sign Up</p></button>
+                    </div>
+
+                    <div class="e">
+                        <p class="type">Premium</p>
+                        <p class="price">$49.99 / month</p>
+                        <p class="et">100GB Storage</p>
+                        <p class="et">10 User</p>
+                        <p class="et">Email & 24/7 Phone Support</p>
+                        <button class="but"><p>Sign Up</p></button>
+                    </div>
+
+                    <div class="f">
+                        <p class="type">Premium</p>
+                        <p class="price">$49.99 / month</p>
+                        <p class="et">100GB Storage</p>
+                        <p class="et">10 User</p>
+                        <p class="et">Email & 24/7 Phone Support</p>
+                        <button class="but"><p>Sign Up</p></button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" style="padding-top: 90px;">
+        <h2 class="text-center mb-4">Testimonials</h2>
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac justo nec urna tristique fringilla."</p>
+                    <p class="font-weight-bold">John Doe</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p class="lead">"Integer auctor elit ac justo molestie, ut interdum turpis consectetur. Duis dapibus magna vel quam cursus, eu tempus justo eleifend."</p>
+                    <p class="font-weight-bold">Jane Smith</p>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p class="lead">"Vivamus id velit euismod, ultricies ex non, fermentum tellus. Nullam eu enim vel sapien gravida vehicula."</p>
+                    <p class="font-weight-bold">Bob Johnson</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      
+      <div class="container-fluid" style="padding-left: 50px; padding-right: 50px;padding-top: 90px;"  >
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+        </div>
+<!-- <input type="text" id="searchInput" placeholder="Search items"> -->
+<!-- List of items to search through -->
+<!-- <div class="container-fluid">
+    <ul id="itemList">
+        <li>John Doe</li>
+        <li>Jane Doe</li>
+        <li>Alice Smith</li>
+        <li>Bob Johnson</li>
+        <li>Eva Davis</li>
+        <li>Michael Brown</li>
+        <li>Susan Wilson</li>
+        <li>David Taylor</li>
+        <li>Emily Miller</li>
+        <li>Christopher Lee</li>
+        <li>Emma Martinez</li>
+        <li>Matthew Anderson</li>
+        <li>Olivia Harris</li>
+        <li>Daniel Thompson</li>
+        <li>Sophia White</li>
+        <li>William Taylor</li>
+        <li>Ava Garcia</li>
+        <li>James Robinson</li>
+        <li>Grace Davis</li>    
+         Add more items as needed 
+    </ul>
+</div> -->
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+</body>
+</html>
